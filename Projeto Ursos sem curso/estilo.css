@@ -1,0 +1,282 @@
+@media only screen and (max-width: 479px) {
+	body{
+		font-family: verdana;
+		width: 100%;
+	}
+	header{
+		background-color: #2952a3;
+		display: inline-block;
+		margin: 0 auto;
+		width: 100%;
+
+	}
+	header img{
+		margin: 15px auto -10px 10px;
+		width: 120px;
+	}
+
+	header h1{
+		font-size: 45px;
+		float: right;
+		color: white;
+		margin-right: 20px;
+	}
+	nav {
+		clear: both;
+		margin: -20px 5px 20px 15px;
+	}
+	nav a{
+		text-decoration: none;
+		color: white;
+		font-size: 17px;
+		margin-top: -10px;
+		padding: 5px;
+	}
+	nav a:hover{
+		background-color: #ff3333;
+		padding: 15px 5px;
+	}
+	.sobre{
+		display: none;
+	}
+	.post{
+		display: none;
+	}
+	.categoria{
+		text-align: left;
+		border-bottom: 5px solid black;
+		padding: 30px;
+	}
+	ul{
+		margin-left: 50px;
+		margin-bottom: 100px;
+	}
+	li{
+		border-bottom: 1px solid black;
+		padding: 15px;
+		font-size: 20px;
+	}
+	.img3{
+		width: 350px;
+		border: 1px solid black;
+		padding: 8px;
+	}
+	.alinhar{
+		text-align: justify;
+	}
+	.titulo{
+		text-align: left;
+		padding: 10px 2px;
+		font-size: 20px;
+	}
+	.subtitulo{
+		color: grey;
+		font-size: 14px;
+		margin-bottom: 30px;
+		font-style: italic;
+	}
+	.botao{
+		padding: 5px 15px;
+		border-radius: 7px;
+		color: white;
+		background-color: #464545;
+		font-size: 18px;
+		margin-top: -20px;
+	}
+	.linha{
+		border-bottom: 2px solid black;
+		padding: 20px 15px;
+		margin-bottom: 50px;
+	}
+	.final{
+		background-color: #2952a3;
+		color: white;
+		height: 700px;
+	}
+	.espaçamento{
+		padding: 0px 15px;
+	}
+	.cabeçalho{
+		border-bottom: 5px solid white;
+		padding: 20px;
+	}
+	footer{
+		background-color: #003366;
+		color: white;
+		text-align: center;
+		padding: 10px;
+	}
+}
+
+@media only screen and (min-width: 479px){
+	body{
+		font-family: verdana;
+		width: 100%;
+		background-color: #ffffb3;
+	}
+	header{
+		background-color: #2952a3;
+		display: inline-block;
+		margin: 0 auto;
+		width: 100%;
+
+	}
+	header img{
+		margin: 15px 30px 30px 100px;
+		width: 180px;
+		float: left;
+	}
+
+	header h1{
+		font-size: 45px;
+		color: white;
+		margin-top: 50px;
+	}
+	nav {
+		float: right;
+		margin: -100px 100px 50px 15px;
+	}
+	nav a{
+		text-decoration: none;
+		color: white;
+		font-size: 17px;
+		margin-top: -10px;
+		padding: 10px;
+	}
+	nav a:hover{
+		background-color: #ff3333;
+		padding: 30px 10px;
+	}
+	main{
+		background-color: white;
+		width: 1100px;
+		height: 1100px;
+		margin-left: 120px;
+		margin: 50px auto 50px 120px;
+	}
+	.sobre{
+		text-align: justify;
+		float: left;
+		width: 250px;
+		padding: 20px;
+	}
+	.sobre h2{
+		border-bottom: 5px solid black;
+		padding: 30px 0;
+	}
+	.categoria{
+		clear: both;
+		padding: 30px 0px;
+		margin-left: 25px;
+		border-bottom: 5px solid black; 
+		width: 250px;
+	}
+	ul{
+		padding: 10px 30px;
+		margin-left: 50px;
+	}
+	li{
+		padding: 10px;
+		border-bottom: 1px solid black;
+		width: 175px;
+	}
+	.post{
+		width: 250px;
+		margin-left: 30px;
+	}
+	.post img{
+		width: 50px;
+		border: 1px solid black;
+		padding: 5px;
+		margin-left: -40px;
+		margin-right: -200px;
+		clear: both;
+	}
+	.post h2{
+		padding: 10px;
+		border-bottom: 5px solid black;
+	}
+	.post figcaption{
+		float: right;
+		margin-left: 40px;
+		margin-top: 0px;
+		font-size: 15px;
+	}
+	.post p{
+		float: right;
+		margin-top: 10px;
+		margin-right: 2px;
+		font-size: 13px;
+		color: grey;
+	}
+	.artigo1{
+		float: left;
+		text-align: justify;
+		width: 300px;
+		margin-left: 350px;
+		margin-top: -930px;
+	}
+	.artigo1 img{
+		width: 290px;
+		border: 1px solid black;
+		padding: 10px;
+	}
+	.artigo2{
+		float: right;
+		width: 300px;
+		margin-top: -930px;
+		text-align: justify;
+		margin-right: 70px;
+	}
+	.artigo2 img{
+		width: 290px;
+		border: 1px solid black;
+		padding: 10px;
+	}
+	.artigo3{
+		float: left;
+		text-align: justify;
+		width: 300px;
+		margin-left: 350px;
+		margin-top: -430px;
+	}
+	.artigo3 img{
+		width: 290px;
+		border: 1px solid black;
+		padding: 10px;
+	}
+	.artigo4{
+		float: right;
+		width: 300px;
+		margin-top: -430px;
+		text-align: justify;
+		margin-right: 70px;
+	}
+	.artigo4 img{
+		width: 290px;
+		border: 1px solid black;
+		padding: 10px;
+	}
+	.final{
+		background-color: #2952a3;
+		color: white;
+		height: 300px;
+	}
+	.espaçamento{
+		width: 400px;
+		clear: both;
+		display: inline-block;
+		margin-left: 30px;
+		text-align: justify;
+	}
+	.cabeçalho{
+		border-bottom: 5px solid white;
+		padding: 20px;
+	}
+	footer{
+		background-color: #003366;
+		color: white;
+		text-align: center;
+		padding: 10px;		
+	}
+}
